@@ -1,0 +1,158 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* Header Styles */
+header {
+    background-color: #FAEFE6;
+    color:#D46BCA;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+   
+    font-size: 2.5em;
+}
+
+header h2 {
+
+    font-size: 2em;
+    color: black;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header a {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+    color: black;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 0.3em;
+}
+
+header a:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #faa671;
+    color: #fff;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2em;
+}
+
+main section {
+    margin-bottom: 2em;
+}
+
+main h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 15px;
+    color: black;
+
+}
+
+main p {
+    margin: 1em 0;
+    color: black;
+    font-size: 12px;
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    color: black;
+}
+
+main ul li {
+    margin-bottom: 0.5em;
+    color: black;
+    font-size: 12px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    header a {
+        padding: 0.4em 0.8em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    main h2 {
+        font-size: 1.5em;
+    }
+}
+
+article {
+    float: right;
+    padding: 25px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 200px; /* only for demonstration, should be removed */
+  }
+  section img{
+    float: left;
+    display: inline;
+    width: 40%;
+   
+  }
+  

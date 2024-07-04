@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding-left: 0px;
+    background-image: url('6635950.png');
+    background-size:cover;
+ 
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .about-me p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .service {
+    width: 250px;
+    text-align: center;
+  }
+  
+  .service h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
